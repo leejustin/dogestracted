@@ -1,0 +1,18 @@
+body{
+	position: relative;
+	background-color:'black';
+}
+
+.overlay{
+	opacity:0.90;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	background-image:url('chrome-extension://cpognobmhggliigkkcfdoabecbngajjl/images/main_doge_text.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
